@@ -40,11 +40,10 @@ class Employee:
 emp = []
 
 for i in range(2):
-    print(f"Enter the Information of Employee {i+1}")
+    print(f"Enter the Information of Employee {i + 1}")
     temp = Employee()
     temp.getInformation()
     emp.append(temp)
 
 for i in range(2):
     emp[i].display()
-
